@@ -8,5 +8,5 @@ import java.util.Date;
 public @interface Apropos {
 
     int id();
-    Date date();
+//    Date date();
 }

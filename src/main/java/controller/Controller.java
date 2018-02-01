@@ -3,7 +3,7 @@ package controller;
 /**
  * Контроллер.
  */
-@Apropos
+//@Apropos
 public class Controller {
 
     /**
