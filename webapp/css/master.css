@@ -1,0 +1,45 @@
+/*COMMON*/
+/*----------------------------------------------------------------------------------*/
+body {
+    margin-left: 16px;
+    margin-right: 16px;
+    background-color: #e2e2e2e2;
+}
+
+nav > ul > li {
+    display: inline-block;
+    color: blue;
+}
+
+li {
+    margin: 8px;
+}
+
+b {
+    display: block;
+}
+
+a {
+    color : blue;
+}
+
+a:hover {
+    color : darkblue;
+}
+
+table {
+    margin: 16px;
+    background-color: #d2d2d2;
+}
+
+td {
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+}
+
+/*SPECS*/
+/*----------------------------------------------------------------------------------*/
