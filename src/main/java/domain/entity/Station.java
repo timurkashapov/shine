@@ -8,4 +8,9 @@ package domain.entity;
  *
  */
 public class Station {
+
+    /**
+     * идентификатор сущности.
+     */
+    private String guid;
 }

@@ -8,4 +8,9 @@ package domain.entity;
  *
  */
 public class Flight {
+
+    /**
+     * идентификатор сущности.
+     */
+    private String guid;
 }

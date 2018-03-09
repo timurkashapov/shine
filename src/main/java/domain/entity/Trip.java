@@ -8,4 +8,9 @@ package domain.entity;
  *
  */
 public class Trip {
+
+    /**
+     * идентификатор сущности.
+     */
+    private String guid;
 }

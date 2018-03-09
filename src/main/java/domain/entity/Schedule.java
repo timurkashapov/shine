@@ -8,4 +8,9 @@ package domain.entity;
  *
  */
 public class Schedule {
+
+    /**
+     * идентификатор сущности.
+     */
+    private String guid;
 }

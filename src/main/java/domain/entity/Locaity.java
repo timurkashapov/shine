@@ -8,4 +8,9 @@ package domain.entity;
  *
  */
 public class Locaity {
+
+    /**
+     * идентификатор сущности.
+     */
+    private String guid;
 }
