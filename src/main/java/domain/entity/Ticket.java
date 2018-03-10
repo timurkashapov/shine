@@ -26,11 +26,11 @@ public class Ticket {
      */
     private Long durationOfBooking;
 
-    /* *
+    /**
      * Клиент операции.
      */
-    //private Client transactionClient;
-    
+    private Client transactionClient;
+
     /**
      * Забронирован?
      */
