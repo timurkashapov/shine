@@ -140,4 +140,4 @@ ___
 
 ***Неизменяемый объект (immutable) - мы не можем изменить состояние объекта после его создания.***
 
-!()[images/bounded_context_rus.png]
+![](images/bounded_context_rus.png)
