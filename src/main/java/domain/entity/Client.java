@@ -7,7 +7,7 @@ package domain.entity;
  *
  *
  */
-public class Client {
+public class Client extends Entity {
 
 
 }

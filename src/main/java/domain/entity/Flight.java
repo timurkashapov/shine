@@ -7,10 +7,6 @@ package domain.entity;
  *
  *
  */
-public class Flight {
+public class Flight extends Entity {
 
-    /**
-     * идентификатор сущности.
-     */
-    private String guid;
 }

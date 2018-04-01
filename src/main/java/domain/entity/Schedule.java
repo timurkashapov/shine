@@ -7,10 +7,6 @@ package domain.entity;
  *
  *
  */
-public class Schedule {
+public class Schedule extends Entity {
 
-    /**
-     * идентификатор сущности.
-     */
-    private String guid;
 }

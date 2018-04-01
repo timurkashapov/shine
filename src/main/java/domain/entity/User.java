@@ -7,10 +7,6 @@ package domain.entity;
  *
  *
  */
-public class User {
+public class User extends Entity {
 
-    /**
-     * идентификатор сущности.
-     */
-    private String guid;
 }

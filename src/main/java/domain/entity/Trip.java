@@ -7,10 +7,6 @@ package domain.entity;
  *
  *
  */
-public class Trip {
+public class Trip extends Entity {
 
-    /**
-     * идентификатор сущности.
-     */
-    private String guid;
 }

@@ -9,12 +9,7 @@ import java.util.Date;
  *
  *
  */
-public class Ticket {
-
-    /**
-     * идентификатор сущности.
-     */
-    private String guid;
+public class Ticket extends Entity {
 
     /**
      * Дата бронирования.

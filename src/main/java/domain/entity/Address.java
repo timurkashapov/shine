@@ -7,12 +7,7 @@ package domain.entity;
  *
  *
  */
-public class Address {
-
-    /**
-     * идентификатор сущности.
-     */
-    private String guid;
+public class Address extends Entity {
 
     /**
      * Страна.
