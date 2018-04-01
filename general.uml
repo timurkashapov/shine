@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="322.0" y="185.0">domain.entity.geographic.Coordinate</node>
+    <node x="639.0" y="369.0">Runner</node>
+    <node x="199.0" y="369.0">util.Utilities</node>
+    <node x="704.0" y="229.0">domain.entity.Flight</node>
+    <node x="1147.0" y="196.0">domain.entity.geographic.Locality</node>
+    <node x="754.75" y="0.0">domain.entity.Entity</node>
+    <node x="802.0" y="185.0">domain.entity.Ticket</node>
+    <node x="499.0" y="369.0">Apropos</node>
+    <node x="1632.0" y="229.0">domain.entity.geographic.Region</node>
+    <node x="183.0" y="448.0">util.EntityUtilities</node>
+    <node x="0.0" y="369.0">domain.entity.geographic.StationType</node>
+    <node x="596.0" y="229.0">domain.entity.geographic.District</node>
+    <node x="506.00000000000006" y="229.0">domain.entity.Trip</node>
+    <node x="349.0" y="369.0">controller.Controller</node>
+    <node x="0.0" y="531.0">dao.Dao</node>
+    <node x="1027.0" y="229.0">domain.entity.Schedule</node>
+    <node x="1454.0" y="163.0">domain.entity.Address</node>
+    <node x="221.0" y="229.0">domain.entity.Client</node>
+    <node x="1360.0" y="229.0">domain.entity.User</node>
+    <node x="0.0" y="174.0">domain.entity.geographic.Station</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="domain.entity.geographic.Station" target="domain.entity.Entity">
+      <point x="0.0" y="-69.5" />
+      <point x="100.5" y="93.0" />
+      <point x="760.5" y="93.0" />
+      <point x="-63.25" y="36.5" />
+    </edge>
+    <edge source="domain.entity.geographic.District" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="640.0" y="133.0" />
+      <point x="806.5" y="133.0" />
+      <point x="-17.25" y="36.5" />
+    </edge>
+    <edge source="domain.entity.Client" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="261.5" y="103.0" />
+      <point x="772.0" y="103.0" />
+      <point x="-51.75" y="36.5" />
+    </edge>
+    <edge source="domain.entity.geographic.Locality" target="domain.entity.Entity">
+      <point x="0.0" y="-47.5" />
+      <point x="1243.5" y="123.0" />
+      <point x="852.5" y="123.0" />
+      <point x="28.75" y="36.5" />
+    </edge>
+    <edge source="domain.entity.Ticket" target="domain.entity.Entity">
+      <point x="0.0" y="-58.5" />
+      <point x="904.5" y="143.0" />
+      <point x="829.5" y="143.0" />
+      <point x="5.75" y="36.5" />
+    </edge>
+    <edge source="domain.entity.User" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="1397.0" y="113.0" />
+      <point x="864.0" y="113.0" />
+      <point x="40.25" y="36.5" />
+    </edge>
+    <edge source="domain.entity.geographic.Region" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="1675.5" y="93.0" />
+      <point x="887.0" y="93.0" />
+      <point x="63.25" y="36.5" />
+    </edge>
+    <edge source="domain.entity.geographic.Coordinate" target="domain.entity.Entity">
+      <point x="0.0" y="-58.5" />
+      <point x="404.0" y="113.0" />
+      <point x="783.5" y="113.0" />
+      <point x="-40.25" y="36.5" />
+    </edge>
+    <edge source="domain.entity.Schedule" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="1077.0" y="133.0" />
+      <point x="841.0" y="133.0" />
+      <point x="17.25" y="36.5" />
+    </edge>
+    <edge source="domain.entity.Address" target="domain.entity.Entity">
+      <point x="0.0" y="-80.5" />
+      <point x="1533.0" y="103.0" />
+      <point x="875.5" y="103.0" />
+      <point x="51.75" y="36.5" />
+    </edge>
+    <edge source="util.EntityUtilities" target="util.Utilities">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="domain.entity.Flight" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="743.0" y="143.0" />
+      <point x="818.0" y="143.0" />
+      <point x="-5.75" y="36.5" />
+    </edge>
+    <edge source="domain.entity.Trip" target="domain.entity.Entity">
+      <point x="0.0" y="-14.5" />
+      <point x="541.0" y="123.0" />
+      <point x="795.0" y="123.0" />
+      <point x="-28.75" y="36.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="859.5" y="280.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
