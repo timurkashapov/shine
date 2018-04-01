@@ -16,10 +16,6 @@
         <mockito.version>2.16.0</mockito.version>
     </properties>
 
-    <modules>
-        
-    </modules>
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
