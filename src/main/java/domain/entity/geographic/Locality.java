@@ -13,7 +13,7 @@ import java.util.Map;
  *
  *
  */
-public class Locaity extends Entity {
+public class Locality extends Entity {
 
     /**
      * Название района.
@@ -43,6 +43,7 @@ public class Locaity extends Entity {
      * @param name название станции.
      */
     public void delStation(final String name) {
+        // todo : доработать логику удаление из списка stations.
         final Map<String, Station> map = EntityUtilities.mapEntitiesByName(stations);
         if (! map.isEmpty()) {
             if (map.containsKey(name)) {
@@ -51,7 +52,7 @@ public class Locaity extends Entity {
         }
     }
 
-
-
-
+    public List<Station> getStations() {
+        return stations;
+    }
 }
